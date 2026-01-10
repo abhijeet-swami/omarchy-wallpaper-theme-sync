@@ -1,0 +1,20 @@
+backend = "wal"
+colorspace = "lch"
+palette = "dark16"
+check_contrast = true
+
+[templates]
+color.template = 'colors.toml'
+color.target   = '~/.config/omarchy/themes/dynamic/colors.toml'
+
+colors.template = 'colors.css'
+colors.target   = '~/.config/omarchy/themes/dynamic/colors.css'
+
+hcolor.template = 'hyprland-colors.conf'
+hcolor.target   = '~/.config/omarchy/themes/dynamic/colors.conf'
+
+neovim.template = 'template.lua'
+neovim.target   = '~/.config/omarchy/themes/dynamic/neovim.lua'
+
+btop.template = 'btop.theme'
+btop.target   = '~/.config/omarchy/themes/dynamic/btop.theme'
