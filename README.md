@@ -1,0 +1,1 @@
+# omarchy-wallpaper-theme-sync
