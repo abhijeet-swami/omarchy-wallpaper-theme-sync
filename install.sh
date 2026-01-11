@@ -30,7 +30,7 @@ echo "==> Installing required packages"
 yay -S --needed wallust
 
 HYPR_BINDINGS="$CONFIG_DIR/hypr/bindings.conf"
-BIND_LINE="bind = SUPER SHIFT ALT, P, exec, elephant menu wallpapers"
+BIND_LINE="bind = SUPER SHIFT ALT, P, exec, ~/.config/bin/launch.sh"
 
 echo "==> Configuring Hyprland keybinding"
 if [ -f "$HYPR_BINDINGS" ]; then
