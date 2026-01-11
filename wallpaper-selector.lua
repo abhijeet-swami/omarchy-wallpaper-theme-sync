@@ -3,8 +3,7 @@ NamePretty = "Wallpapers"
 
 function GetEntries()
   local entries = {}
-
-  local wallpaper_dir = "${HOME}/Wallpapers"
+  local wallpaper_dir = os.getenv("HOME") .. "/Wallpapers"
 
   local handle = io.popen(
     "find -L '" .. wallpaper_dir ..
